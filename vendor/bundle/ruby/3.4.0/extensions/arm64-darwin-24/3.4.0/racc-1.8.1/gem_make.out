@@ -1,0 +1,18 @@
+current directory: /Users/ranjit/personal/vranjit.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/ranjit/personal/vranjit.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250501-7688-pkql8k sitelibdir\=./.gem.20250501-7688-pkql8k clean
+
+current directory: /Users/ranjit/personal/vranjit.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250501-7688-pkql8k sitelibdir\=./.gem.20250501-7688-pkql8k
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/ranjit/personal/vranjit.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250501-7688-pkql8k sitelibdir\=./.gem.20250501-7688-pkql8k install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250501-7688-pkql8k/racc
+
+current directory: /Users/ranjit/personal/vranjit.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250501-7688-pkql8k sitelibdir\=./.gem.20250501-7688-pkql8k clean
