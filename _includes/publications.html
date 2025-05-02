@@ -3,19 +3,16 @@
 <div class="publications">
   {% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
   
-  {% assign years = sorted_pubs | map: "year" | uniq %}
-  
-  {% for year in years %}
-    <h2 class="year">{{ year }}</h2>
-    
-    {% assign year_pubs = sorted_pubs | where: "year", year %}
-    
+  <!-- Preprints Section -->
+  {% assign preprints = sorted_pubs | where: "type", "preprint" %}
+  {% if preprints.size > 0 %}
+    <h2 class="section-title">Preprints</h2>
     <ul class="papers">
-      {% for pub in year_pubs %}
+      {% for pub in preprints %}
         <li class="paper">
           <div class="paper-title">{{ pub.title }}</div>
           <div class="paper-authors">{{ pub.authors }}</div>
-          <div class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+          <div class="paper-venue">{% if pub.venue != "" %}<em>{{ pub.venue }}</em>, {% endif %}{{ pub.year }}</div>
           
           <div class="paper-links">
             {% if pub.pdf != "" %}
@@ -29,7 +26,55 @@
         </li>
       {% endfor %}
     </ul>
-  {% endfor %}
+  {% endif %}
+  
+  <!-- Manuscripts Section -->
+  {% assign manuscripts = sorted_pubs | where: "type", "manuscript" %}
+  {% if manuscripts.size > 0 %}
+    <h2 class="section-title">Manuscripts</h2>
+    <ul class="papers">
+      {% for pub in manuscripts %}
+        <li class="paper">
+          <div class="paper-title">{{ pub.title }}</div>
+          <div class="paper-authors">{{ pub.authors }}</div>
+          <div class="paper-venue">{% if pub.venue != "" %}<em>{{ pub.venue }}</em>, {% endif %}{{ pub.year }}</div>
+          
+          <div class="paper-links">
+            {% if pub.pdf != "" %}
+              <a href="{{ pub.pdf }}" class="paper-link" target="_blank">[PDF]</a>
+            {% endif %}
+            
+            {% for link in pub.links %}
+              <a href="{{ link.url }}" class="paper-link" target="_blank">[{{ link.text }}]</a>
+            {% endfor %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  
+  <!-- Publications Section - Flat List -->
+  <h2 class="section-title">Publications</h2>
+  <ul class="papers">
+    {% assign regular_pubs = sorted_pubs | where_exp: "pub", "pub.type != 'preprint' and pub.type != 'manuscript'" %}
+    {% for pub in regular_pubs %}
+      <li class="paper">
+        <div class="paper-title">{{ pub.title }}</div>
+        <div class="paper-authors">{{ pub.authors }}</div>
+        <div class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+        
+        <div class="paper-links">
+          {% if pub.pdf != "" %}
+            <a href="{{ pub.pdf }}" class="paper-link" target="_blank">[PDF]</a>
+          {% endif %}
+          
+          {% for link in pub.links %}
+            <a href="{{ link.url }}" class="paper-link" target="_blank">[{{ link.text }}]</a>
+          {% endfor %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
 
 <style>
@@ -37,7 +82,7 @@
     margin-bottom: 2em;
   }
   
-  .publications h2.year {
+  .publications h2.section-title {
     border-bottom: 1px solid #eee;
     margin-top: 1.5em;
     padding-bottom: 0.3em;
