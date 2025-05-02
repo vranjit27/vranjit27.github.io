@@ -1,0 +1,129 @@
+---
+layout: archive
+title: "Publications by Topic"
+permalink: /publications-by-topic/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% if site.author.dblp_url %}
+  <div class="wordwrap">Complete list of publications on <a href="{{site.author.dblp_url}}">DBLP</a>.</div>
+{% endif %}
+
+<div class="publications-by-topic">
+  <!-- Blockchain and Cryptocurrency Applications -->
+  <h2 class="topic-title">Blockchain and Cryptocurrency Applications</h2>
+  <ul class="papers">
+    {% assign filtered_pubs = site.data.publications | where_exp: "pub", "pub.venue contains 'DTL' or pub.title contains 'Blockchain' or pub.title contains 'Payment' or pub.title contains 'Bitcoin' or pub.title contains 'Poker' or pub.title contains 'Lightning' or pub.title contains 'Channel'" %}
+    {% for pub in filtered_pubs %}
+      <li class="paper">
+        <div class="paper-title">{{ pub.title }}</div>
+        <div class="paper-authors">{{ pub.authors }}</div>
+        <div class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Secure Multi-party Computation -->
+  <h2 class="topic-title">Secure Multi-party Computation</h2>
+  <ul class="papers">
+    {% assign filtered_pubs = site.data.publications | where_exp: "pub", "pub.title contains 'multiparty computation' or pub.title contains 'Garbled Circuit' or pub.title contains 'Secure Computation' or pub.title contains 'LucidiTEE'" %}
+    {% for pub in filtered_pubs %}
+      <li class="paper">
+        <div class="paper-title">{{ pub.title }}</div>
+        <div class="paper-authors">{{ pub.authors }}</div>
+        <div class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Oblivious Transfer and Private Set Intersection -->
+  <h2 class="topic-title">Oblivious Transfer and Private Set Intersection</h2>
+  <ul class="papers">
+    {% assign filtered_pubs = site.data.publications | where_exp: "pub", "pub.title contains 'Oblivious' or pub.title contains 'OT' or pub.title contains 'Private Set Intersection' or pub.title contains 'PRF'" %}
+    {% for pub in filtered_pubs %}
+      <li class="paper">
+        <div class="paper-title">{{ pub.title }}</div>
+        <div class="paper-authors">{{ pub.authors }}</div>
+        <div class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Fair Exchange and Secure Computation Protocols -->
+  <h2 class="topic-title">Fair Exchange and Secure Computation Protocols</h2>
+  <ul class="papers">
+    {% assign filtered_pubs = site.data.publications | where_exp: "pub", "pub.title contains 'Fair Exchange' or pub.title contains 'Synchronizable' or pub.title contains 'Verification' or pub.title contains 'Multi-Client' or pub.title contains 'Server-Assisted'" %}
+    {% for pub in filtered_pubs %}
+      <li class="paper">
+        <div class="paper-title">{{ pub.title }}</div>
+        <div class="paper-authors">{{ pub.authors }}</div>
+        <div class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Broadcast Protocols and Secret Sharing -->
+  <h2 class="topic-title">Broadcast Protocols and Secret Sharing</h2>
+  <ul class="papers">
+    {% assign filtered_pubs = site.data.publications | where_exp: "pub", "pub.title contains 'Broadcast' or pub.title contains 'Secret Sharing' or pub.title contains 'VSS' or pub.title contains 'Reliable Communication'" %}
+    {% for pub in filtered_pubs %}
+      <li class="paper">
+        <div class="paper-title">{{ pub.title }}</div>
+        <div class="paper-authors">{{ pub.authors }}</div>
+        <div class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Cryptographic Primitives and Foundations -->
+  <h2 class="topic-title">Cryptographic Primitives and Foundations</h2>
+  <ul class="papers">
+    {% assign filtered_pubs = site.data.publications | where_exp: "pub", "pub.title contains 'Complexity' or pub.title contains 'UC Commitment'" %}
+    {% for pub in filtered_pubs %}
+      <li class="paper">
+        <div class="paper-title">{{ pub.title }}</div>
+        <div class="paper-authors">{{ pub.authors }}</div>
+        <div class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<style>
+  .publications-by-topic {
+    margin-bottom: 2em;
+  }
+  
+  .publications-by-topic h2.topic-title {
+    border-bottom: 1px solid #eee;
+    margin-top: 1.5em;
+    padding-bottom: 0.3em;
+  }
+  
+  .publications-by-topic ul.papers {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .publications-by-topic li.paper {
+    margin-bottom: 1.5em;
+  }
+  
+  .publications-by-topic .paper-title {
+    font-weight: bold;
+  }
+  
+  .publications-by-topic .paper-authors {
+    margin: 0.25em 0;
+  }
+  
+  .publications-by-topic .paper-venue {
+    margin-bottom: 0.25em;
+  }
+</style>
