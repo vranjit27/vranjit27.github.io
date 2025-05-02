@@ -1,0 +1,35 @@
+/* Custom styles for hero section */
+header.masthead {
+  text-align: center;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+header.masthead h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header.masthead .tagline {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #6c757d;
+}
+
+header.masthead .btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #0366d6;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+header.masthead .btn:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}

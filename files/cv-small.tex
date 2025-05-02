@@ -1,0 +1,141 @@
+\documentclass[11pt]{article}
+
+% Compact layout with reduced margins
+\usepackage[letterpaper, margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{parskip}
+
+% Optional font packages
+\usepackage{tgpagella}  % Palatino-like font
+
+% Color definitions
+\definecolor{accent}{RGB}{51, 105, 173}  % Deeper blue
+\definecolor{linkcolor}{RGB}{0, 0, 120}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    pdfauthor={Ranjit Kumaresan}
+}
+
+% Custom section format - more compact
+\titleformat{\section}
+{\large\bfseries\color{accent}}
+{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{6pt}{3pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Custom commands
+\newcommand{\entry}[4]{
+    \noindent\textbf{#1} \hfill \textit{#2} \\
+    \noindent\textit{#3} \hfill #4 \\
+}
+
+\newcommand{\entryshort}[2]{
+    \noindent\textbf{#1} \hfill #2 \\
+}
+
+\usepackage{fontawesome}
+
+\begin{document}
+
+% Header - more elegant layout
+\begin{center}
+    \LARGE\textbf{Ranjit Kumaresan} \\
+    \vspace{1mm}
+    \normalsize
+    43767 Paso Nuez Cmn, Fremont CA 94539 \quad
+    \faPhone\ 617-335-9993 \quad 
+    \faEnvelope\ \href{mailto:vranjit@gmail.com}{vranjit@gmail.com} \\
+    \faGlobe\ \href{http://people.csail.mit.edu/ranjit/}{Academic webpage} \quad
+    \faGoogle\ \href{https://scholar.google.com/citations?user=YC3Ab4oAAAAJ&hl=en}{Google Scholar} \quad
+    \faDatabase\ \href{https://dblp.org/pid/14/4245.html}{DBLP}
+\end{center}
+
+\vspace{-3mm}
+
+% Research Interests
+\section{Research Interests}
+Fundamental aspects of cryptography with applications to various technologies including AI and blockchain.
+
+% Education - fixed spacing
+\section{Education}
+\entry{University of Maryland}{2006 – 2012}{M.S. and Ph.D. in Computer Science}{College Park, MD}
+\entry{Indian Institute of Technology}{2002 – 2006}{B.Tech in Computer Science}{Chennai, India}
+
+\vspace{-5mm}
+
+% Work Experience - condensed
+\section{Professional Experience}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item \textbf{Visa Research}, Palo Alto, CA — Research Scientist (2018 – Present)
+    \item \textbf{Microsoft Research}, Redmond, WA — Researcher, Cryptography Group (2016 – 2018)
+    \item \textbf{Massachusetts Institute of Technology}, Cambridge, MA — Postdoctoral Associate (2015 – 2016)
+    \item \textbf{Technion—Israel Institute of Technology}, Haifa, Israel — Postdoctoral Research Scholar (2012 – 2014)
+\end{itemize}
+
+% Select Patents (shortened)
+\section{Selected Patents}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item R. Kumaresan, S. Raghuraman, and R. Sinha. ``System and computer program product for fair, secure n-party computation using at least one blockchain.'' US Patent 12261955.
+    \item R. Kumaresan, M. Zamani, S. Raghuraman, M. Christodorescu, M. Minaei. ``Conditional offline interaction system and method.'' US Patent 12238209.
+    \item R. Sinha, R. Kumaresan, S. Gaddam, M. Christodorescu, S. Raghuraman. ``System, method, and computer program product for secure real-time N-party computation.'' US Patent 12081677.
+    \item M. Minaei, R. Kumaresan, M. Zamani, S. Gaddam. ``Universal payment channels.'' US Patent 11995623.
+    \item V. Kolesnikov and R. Kumaresan. ``Secure Function Evaluation For A Covert Client And A Semi-Honest Server Using String Selection Oblivious Transfer.'' U.S. Patent 8990570.
+\end{itemize}
+
+% Recent Publications (most recent publications only)
+\section{Recent Conference Publications}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item M. Minaei, P. Moreno-Sanchez, Z. Fang, S. Raghuraman, N. Alamati, P. Chatzigiannis, R. Kumaresan, D. Le. ``DTL: Data Tumbling Layer. A Composable Unlinkability for Smart Contracts.'' \textit{AsiaCCS 2025.}
+    \item L. Ng, P. Chatzigiannis, D. Le, M. Minaei, R. Kumaresan, M. Zamani. ``A Plug-and-Play Long-Range Defense System for Proof-of-Stake Blockchains.'' \textit{ESORICS 2024.}
+    \item R. Kumaresan, D. Le, M. Minaei, S. Raghuraman, Y. Yang, M. Zamani. ``Programmable Payment Channels.'' \textit{ACNS 2024}.
+    \item M. Minaei, P. Chatzigiannis, S. Jin, S. Raghuraman, R. Kumaresan, M. Zamani, P. Moreno-Sanchez. ``Unlinkability and Interoperability in Account-Based Universal Payment Channels.'' \textit{Financial Cryptography Workshop 2023}.
+    \item R. Kumaresan, S. Raghuraman, A. Sealfon. ``Synchronizable Fair Exchange.'' \textit{Theory of Cryptography Conference 2023}.
+    \item S. Gaddam, R. Kumaresan, S. Raghuraman, R. Sinha. ``LucidiTEE: Scalable policy-based multiparty computation with fairness.'' \textit{CANS 2023}.
+    \item S. Badrinarayanan, R. Kumaresan, M. Christodorescu, V. Nagaraja, K. Patel, S. Raghuraman, P. Rindal, W. Sun, M. Xu. ``A plug-n-play framework for scaling private set intersection to billion-sized sets.'' \textit{CANS 2023}.
+\end{itemize}
+
+\section{Selected Earlier Publications}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item A. Miller, I. Bentov, S. Bakshi, R. Kumaresan, and P. McCorry. ``Sprites and State Channels: Payment Networks that Go Faster Than Lightning.'' \textit{Financial Cryptography 2019.}
+    \item I. Bentov, R. Kumaresan, and A. Miller. ``Instantaneous Decentralized Poker.'' \textit{Advances in Cryptology—Asiacrypt 2017.}
+    \item R. Kumaresan and I. Bentov. ``Amortizing Secure Computation with Penalties.'' \textit{Proc. 23rd ACM Conf. on Computer and Communications Security (CCS) 2016}.
+    \item R. Kumaresan, V. Vaikuntanathan, and P. Vasudevan. ``Improvements to Secure Computation with Penalties.'' \textit{Proc. 23rd ACM Conf. on Computer and Communications Security (CCS) 2016}.
+    \item V. Kolesnikov, R. Kumaresan, M. Rosulek, and N. Trieu. ``Efficient Batched Oblivious PRF with Applications to Private Set Intersection.'' \textit{Proc. 23rd ACM Conf. on Computer and Communications Security (CCS) 2016}.
+    \item R. Kumaresan, S. Raghuraman, and A. Sealfon. ``Network Oblivious Transfer.'' \textit{Advances in Cryptology—Crypto 2016}.
+    \item R. Kumaresan, T. Moran, and I. Bentov. ``How to Use Bitcoin to Play Decentralized Poker.'' \textit{Proc. 22nd ACM Conf. on Computer and Communications Security (CCS) 2015}.
+    \item R. Kumaresan and I. Bentov. ``How to Use Bitcoin to Incentivize Correct Computations.'' \textit{Proc. 21st ACM Conf. on Computer and Communications Security (CCS) 2014}.
+    \item I. Bentov and R. Kumaresan. ``How to Use Bitcoin to Design Fair Protocols.'' \textit{Advances in Cryptology—Crypto 2014}.
+    \item A. Beimel, Y. Ishai, R. Kumaresan, and E. Kushilevitz. ``On the Cryptographic Complexity of the Worst Functions.'' \textit{11th Theory of Cryptography Conference (TCC) 2014}.
+    \item V. Kolesnikov and R. Kumaresan. ``Improved OT Extension for Transferring Short Secrets.'' \textit{Advances in Cryptology—Crypto 2013}.
+    \item S.G. Choi, J. Katz, R. Kumaresan, and H.-S. Zhou. ``On the Security of the 'Free-XOR' Technique.'' \textit{9th Theory of Cryptography Conference (TCC) 2012}.
+    \item J.A. Garay, J. Katz, R. Kumaresan, and H.-S. Zhou. ``Adaptively Secure Broadcast, Revisited.'' \textit{ACM Symposium on Principles of Distributed Computing (PODC) 2011}.
+    \item R. Kumaresan, A. Patra, C.P. Rangan. ``The Round Complexity of Verifiable Secret Sharing: The Statistical Case.'' \textit{Advances in Cryptology—Asiacrypt 2010}.
+    \item J. Katz, C.-Y. Koo, and R. Kumaresan. ``Improving the Round Complexity of VSS in Point-to-Point Networks.'' \textit{Intl. Colloquium on Automata, Languages and Programming (ICALP) 2008}.
+\end{itemize}
+
+\section{Selected Preprints and Technical Whitepapers}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item R. Kumaresan. ``Improved Garbled Circuit Lookup Tables.'' (Under Submission)
+    \item R. Kumaresan. ``Improved Pseudorandom Error-Correcting Codes and Application to Watermarking LLM Outputs.'' (Under Submission)
+    \item M. Minaei, D. Le, R. Kumaresan, A. Beams, P. Moreno-Sanchez, Y. Yang, S. Raghuraman, P. Chatzigiannis, M. Zamani. ``Scalable Off-Chain Auctions.'' ePrint 2023/1454.
+    \item S. Gaddam, R. Kumaresan, S. Raghuraman, R. Sinha. ``How to Design Fair Protocols in the Multi-Blockchain Setting.'' ePrint 2023/762.
+    \item R. Kumaresan. ``Method and system to automatically synthesize smart contracts using transaction traces.'' Technical Disclosure Commons 2023.
+    \item M. Christodorescu, E. English, W. Gu, D. Kreissman, R. Kumaresan, M. Minaei, S. Raghuraman, C. Sheffield, A. Wijeyekoon, M. Zamani. ``Universal Payment Channels: An Interoperability Platform for Digital Currencies.'' CoRR abs/2109.12194 (2021).
+\end{itemize}
+
+\section{Professional Service}
+\textbf{Program Committee Member:} ACM CCS 2023; Eurocrypt 2017; ACM CCS 2016; ICITS 2016; SCN 2016; ACNS 2015
+
+\textbf{External Reviewer:} Journal of Cryptology, Algorithmica, STOC, Crypto, Eurocrypt, Asiacrypt, CCS, TCC, PODC, DISC (various years)
+
+\end{document}

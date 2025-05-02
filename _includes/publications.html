@@ -1,0 +1,74 @@
+{% include base_path %}
+
+<div class="publications">
+  {% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
+  
+  {% assign years = sorted_pubs | map: "year" | uniq %}
+  
+  {% for year in years %}
+    <h2 class="year">{{ year }}</h2>
+    
+    {% assign year_pubs = sorted_pubs | where: "year", year %}
+    
+    <ul class="papers">
+      {% for pub in year_pubs %}
+        <li class="paper">
+          <div class="paper-title">{{ pub.title }}</div>
+          <div class="paper-authors">{{ pub.authors }}</div>
+          <div class="paper-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+          
+          <div class="paper-links">
+            {% if pub.pdf != "" %}
+              <a href="{{ pub.pdf }}" class="paper-link" target="_blank">[PDF]</a>
+            {% endif %}
+            
+            {% for link in pub.links %}
+              <a href="{{ link.url }}" class="paper-link" target="_blank">[{{ link.text }}]</a>
+            {% endfor %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+
+<style>
+  .publications {
+    margin-bottom: 2em;
+  }
+  
+  .publications h2.year {
+    border-bottom: 1px solid #eee;
+    margin-top: 1.5em;
+    padding-bottom: 0.3em;
+  }
+  
+  .publications ul.papers {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .publications li.paper {
+    margin-bottom: 1.5em;
+  }
+  
+  .publications .paper-title {
+    font-weight: bold;
+  }
+  
+  .publications .paper-authors {
+    margin: 0.25em 0;
+  }
+  
+  .publications .paper-venue {
+    margin-bottom: 0.25em;
+  }
+  
+  .publications .paper-links {
+    margin-top: 0.25em;
+  }
+  
+  .publications .paper-link {
+    margin-right: 0.5em;
+  }
+</style>
