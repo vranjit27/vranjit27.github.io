@@ -24,7 +24,7 @@ email                    : "vranjit@gmail.com"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Ranjit Kumaresan"
   pronouns         : # example: "she/her"  
   bio              : "Cryptography & Security Researcher"
@@ -220,9 +220,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  # Using _data/publications.yml instead of individual files
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   portfolio:
     output: true
     permalink: /:collection/:path/
