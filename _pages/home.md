@@ -1,21 +1,22 @@
 ---
 permalink: /
-title: "Ranjit Kumaresan"
-author_profile: true
+title: "Cryptography & Security · Visa Research"
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<header class="masthead">
-<h1>Ranjit Kumaresan</h1>
-<p class="tagline">
-  Cryptography &amp; Security · Visa Research<br>
-</p>
-<a class="btn" href="/files/ranjit_kumaresan_cv.pdf">Download CV</a>
-</header>
-
-<img src="/images/profile.jpg" align="right" width="160">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2em;">
+  <div>
+    <h1>Ranjit Kumaresan</h1>
+    <p>Cryptography &amp; Security · Visa Research</p>
+    <a class="btn btn--primary" href="/files/ranjit_kumaresan_cv.pdf">Download CV</a>
+  </div>
+  <div>
+    <img src="/images/profile.jpg" width="160" style="border-radius: 50%;">
+  </div>
+</div>
 
 I am a research scientist at **Visa Research** (2018 – present).  
 My work spans *secure multiparty computation, verifiable secret sharing*, and *blockchain-based fairness protocols*.  
@@ -25,4 +26,12 @@ Previously I was a cryptography researcher at **Microsoft Research**, a post-doc
 
 **Contact.**  
 43767 Paso Nuez Cmn, Fremont CA 94539  
-<mailto:vranjit@gmail.com> | <https://scholar.google.com/citations?user=YC3Ab4oAAAAJ>
+[vranjit@gmail.com](mailto:vranjit@gmail.com) | [Google Scholar](https://scholar.google.com/citations?user=YC3Ab4oAAAAJ)
+
+<div style="margin-top: 2em;">
+  <a href="/about/">About</a> |
+  <a href="/publications/">Publications</a> |
+  <a href="/blog/">Blog</a> |
+  <a href="/cv/">CV</a> |
+  <a href="/files/ranjit_kumaresan_cv.pdf">CV (Short)</a>
+</div>
