@@ -215,39 +215,6 @@
   pdf: ""
   links: []
 
-# Preprints
-- title: "Secure State Aggregation for Distributed Data Systems"
-  authors: "R. Kumaresan, S. Raghuraman, T. Zhang"
-  venue: "arXiv preprint"
-  year: 2025
-  pdf: ""
-  links: []
-  type: "preprint"
-
-- title: "Cryptographic Techniques for Secure Multi-party Computation in Supply Chains"
-  authors: "R. Kumaresan, P. Chatzigiannis, M. Minaei"
-  venue: "arXiv preprint"
-  year: 2024
-  pdf: ""
-  links: []
-  type: "preprint"
-
-# Manuscripts
-- title: "Privacy-Preserving Authentication for Decentralized Systems"
-  authors: "R. Kumaresan, S. Raghuraman"
-  venue: "Manuscript"
-  year: 2025
-  pdf: ""
-  links: []
-  type: "manuscript"
-
-- title: "On the Limits of Zero-Knowledge Proofs for Private Transactions"
-  authors: "R. Kumaresan, M. Minaei, S. Raghuraman"
-  venue: "Manuscript"
-  year: 2024
-  pdf: ""
-  links: []
-  type: "manuscript"
 
 # Journal Publications
 - title: "Authenticated Broadcast with a Partially Compromised Public-Key Infrastructure"
