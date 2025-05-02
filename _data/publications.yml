@@ -1,0 +1,233 @@
+- title: "DTL: Data Tumbling Layer. A Composable Unlinkability for Smart Contracts"
+  authors: "M. Minaei, P. Moreno-Sanchez, Z. Fang, S. Raghuraman, N. Alamati, P. Chatzigiannis, R. Kumaresan, D. Le"
+  venue: "AsiaCCS"
+  year: 2025
+  pdf: ""
+  links: []
+
+- title: "A Plug-and-Play Long-Range Defense System for Proof-of-Stake Blockchains"
+  authors: "L. Ng, P. Chatzigiannis, D. Le, M. Minaei, R. Kumaresan, M. Zamani"
+  venue: "ESORICS"
+  year: 2024
+  pdf: ""
+  links: []
+
+- title: "Programmable Payment Channels"
+  authors: "R. Kumaresan, D. Le, M. Minaei, S. Raghuraman, Y. Yang, M. Zamani"
+  venue: "ACNS"
+  year: 2024
+  pdf: ""
+  links: []
+
+- title: "Unlinkability and Interoperability in Account-Based Universal Payment Channels"
+  authors: "M. Minaei, P. Chatzigiannis, S. Jin, S. Raghuraman, R. Kumaresan, M. Zamani, P. Moreno-Sanchez"
+  venue: "Financial Cryptography Workshop"
+  year: 2023
+  pdf: ""
+  links: []
+
+- title: "Synchronizable Fair Exchange"
+  authors: "R. Kumaresan, S. Raghuraman, A. Sealfon"
+  venue: "Theory of Cryptography Conference"
+  year: 2023
+  pdf: ""
+  links: []
+
+- title: "LucidiTEE: Scalable policy-based multiparty computation with fairness"
+  authors: "S. Gaddam, R. Kumaresan, S. Raghuraman, R. Sinha"
+  venue: "CANS"
+  year: 2023
+  pdf: ""
+  links: []
+
+- title: "A plug-n-play framework for scaling private set intersection to billion-sized sets"
+  authors: "S. Badrinarayanan, R. Kumaresan, M. Christodorescu, V. Nagaraja, K. Patel, S. Raghuraman, P. Rindal, W. Sun, M. Xu"
+  venue: "CANS"
+  year: 2023
+  pdf: ""
+  links: []
+
+- title: "Sprites and State Channels: Payment Networks that Go Faster Than Lightning"
+  authors: "A. Miller, I. Bentov, S. Bakshi, R. Kumaresan, P. McCorry"
+  venue: "Financial Cryptography"
+  year: 2019
+  pdf: "https://eprint.iacr.org/2017/017.pdf"
+  links:
+    - text: DOI
+      url: "https://doi.org/10.1007/978-3-662-58820-8_30"
+
+- title: "Instantaneous Decentralized Poker"
+  authors: "I. Bentov, R. Kumaresan, A. Miller"
+  venue: "Advances in Cryptology—Asiacrypt"
+  year: 2017
+  pdf: "https://eprint.iacr.org/2017/875.pdf"
+  links: []
+
+- title: "Amortizing Secure Computation with Penalties"
+  authors: "R. Kumaresan, I. Bentov"
+  venue: "ACM Conference on Computer and Communications Security (CCS)"
+  year: 2016
+  pdf: "https://eprint.iacr.org/2016/880.pdf"
+  links: []
+
+- title: "Improvements to Secure Computation with Penalties"
+  authors: "R. Kumaresan, V. Vaikuntanathan, P. Vasudevan"
+  venue: "ACM Conference on Computer and Communications Security (CCS)"
+  year: 2016
+  pdf: "https://eprint.iacr.org/2015/1221.pdf"
+  links: []
+
+- title: "Efficient Batched Oblivious PRF with Applications to Private Set Intersection"
+  authors: "V. Kolesnikov, R. Kumaresan, M. Rosulek, N. Trieu"
+  venue: "ACM Conference on Computer and Communications Security (CCS)"
+  year: 2016
+  pdf: "https://eprint.iacr.org/2016/799.pdf"
+  links: []
+
+- title: "Network Oblivious Transfer"
+  authors: "R. Kumaresan, S. Raghuraman, A. Sealfon"
+  venue: "Advances in Cryptology—Crypto"
+  year: 2016
+  pdf: "https://eprint.iacr.org/2016/612.pdf"
+  links: []
+
+- title: "On Cut-and-Choose Oblivious Transfer and Its Variants"
+  authors: "V. Kolesnikov, R. Kumaresan"
+  venue: "Advances in Cryptology—Asiacrypt"
+  year: 2015
+  pdf: ""
+  links: []
+
+- title: "How to Use Bitcoin to Play Decentralized Poker"
+  authors: "R. Kumaresan, T. Moran, I. Bentov"
+  venue: "ACM Conference on Computer and Communications Security (CCS)"
+  year: 2015
+  pdf: "https://eprint.iacr.org/2015/1015.pdf"
+  links: []
+
+- title: "Secure Computation with Minimal Interaction, Revisited"
+  authors: "Y. Ishai, R. Kumaresan, E. Kushilevitz, A. Paskin-Cherniavsky"
+  venue: "Advances in Cryptology—Crypto"
+  year: 2015
+  pdf: "https://eprint.iacr.org/2015/104.pdf"
+  links: []
+
+- title: "How to Use Bitcoin to Incentivize Correct Computations"
+  authors: "R. Kumaresan, I. Bentov"
+  venue: "ACM Conference on Computer and Communications Security (CCS)"
+  year: 2014
+  pdf: "https://eprint.iacr.org/2014/452.pdf"
+  links: []
+
+- title: "How to Use Bitcoin to Design Fair Protocols"
+  authors: "I. Bentov, R. Kumaresan"
+  venue: "Advances in Cryptology—Crypto"
+  year: 2014
+  pdf: "https://eprint.iacr.org/2014/129.pdf"
+  links: []
+
+- title: "Amortizing Garbled Circuits"
+  authors: "Y. Huang, J. Katz, V. Kolesnikov, R. Kumaresan, A. Malozemoff"
+  venue: "Advances in Cryptology—Crypto"
+  year: 2014
+  pdf: "https://eprint.iacr.org/2014/346.pdf"
+  links: []
+
+- title: "On the Complexity of UC Commitments"
+  authors: "J.A. Garay, Y. Ishai, R. Kumaresan, H. Wee"
+  venue: "Advances in Cryptology—Eurocrypt"
+  year: 2014
+  pdf: "https://eprint.iacr.org/2014/438.pdf"
+  links: []
+
+- title: "On the Cryptographic Complexity of the Worst Functions"
+  authors: "A. Beimel, Y. Ishai, R. Kumaresan, E. Kushilevitz"
+  venue: "Theory of Cryptography Conference (TCC)"
+  year: 2014
+  pdf: "https://eprint.iacr.org/2013/508.pdf"
+  links: []
+
+- title: "Improved OT Extension for Transferring Short Secrets"
+  authors: "V. Kolesnikov, R. Kumaresan"
+  venue: "Advances in Cryptology—Crypto"
+  year: 2013
+  pdf: "https://eprint.iacr.org/2013/491.pdf"
+  links: []
+
+- title: "Multi-Client Non-interactive Verifiable Computation"
+  authors: "S.G. Choi, J. Katz, R. Kumaresan, C. Cid"
+  venue: "Theory of Cryptography Conference (TCC)"
+  year: 2013
+  pdf: "https://eprint.iacr.org/2012/416.pdf"
+  links: []
+
+- title: "Efficient Verification of Input Consistency in Server-Assisted Secure Function Evaluation"
+  authors: "V. Kolesnikov, R. Kumaresan, A. Shikfa"
+  venue: "Cryptology and Network Security (CANS)"
+  year: 2012
+  pdf: ""
+  links: []
+
+- title: "Improved Secure Two-Party Computation via Information-Theoretic Garbled Circuits"
+  authors: "V. Kolesnikov, R. Kumaresan"
+  venue: "Security and Cryptography for Networks (SCN)"
+  year: 2012
+  pdf: "https://eprint.iacr.org/2010/643.pdf"
+  links: []
+
+- title: "On the Security of the 'Free-XOR' Technique"
+  authors: "S.G. Choi, J. Katz, R. Kumaresan, H.-S. Zhou"
+  venue: "Theory of Cryptography Conference (TCC)"
+  year: 2012
+  pdf: "https://eprint.iacr.org/2011/510.pdf"
+  links: []
+
+- title: "Adaptively Secure Broadcast, Revisited"
+  authors: "J.A. Garay, J. Katz, R. Kumaresan, H.-S. Zhou"
+  venue: "ACM Symposium on Principles of Distributed Computing (PODC)"
+  year: 2011
+  pdf: "https://eprint.iacr.org/2011/443.pdf"
+  links: []
+
+- title: "The Round Complexity of Verifiable Secret Sharing: The Statistical Case"
+  authors: "R. Kumaresan, A. Patra, C.P. Rangan"
+  venue: "Advances in Cryptology—Asiacrypt"
+  year: 2010
+  pdf: "https://eprint.iacr.org/2010/280.pdf"
+  links: []
+
+- title: "Authenticated Broadcast with a Partially Compromised Public Key Infrastructure"
+  authors: "S.D. Gordon, J. Katz, R. Kumaresan, A. Yerukhimovich"
+  venue: "Intl. Symp. on Stabilization, Safety, and Security of Distributed Systems (SSS)"
+  year: 2010
+  pdf: "https://eprint.iacr.org/2010/595.pdf"
+  links: []
+
+- title: "Improving the Round Complexity of VSS in Point-to-Point Networks"
+  authors: "J. Katz, C.-Y. Koo, R. Kumaresan"
+  venue: "Intl. Colloquium on Automata, Languages and Programming (ICALP)"
+  year: 2008
+  pdf: "https://eprint.iacr.org/2007/358.pdf"
+  links: []
+
+- title: "On Exponential Lower Bound for Protocols for Reliable Communication in Networks"
+  authors: "K. Srinathan, C.P. Rangan, R. Kumaresan"
+  venue: "Intl. Conf. on Information Theoretic Security (ICITS)"
+  year: 2007
+  pdf: ""
+  links: []
+
+# Journal Publications
+- title: "Authenticated Broadcast with a Partially Compromised Public-Key Infrastructure"
+  authors: "S.D. Gordon, J. Katz, R. Kumaresan, A. Yerukhimovich"
+  venue: "Information & Computation"
+  year: 2014
+  pdf: ""
+  links: []
+
+- title: "Improving the Round Complexity of VSS in Point-to-Point Networks"
+  authors: "J. Katz, C.-Y. Koo, R. Kumaresan"
+  venue: "Information & Computation"
+  year: 2009
+  pdf: ""
+  links: []
