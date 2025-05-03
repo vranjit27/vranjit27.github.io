@@ -6,11 +6,18 @@ permalink: /about/
 
 <img src="/images/profile.jpg" align="right" width="160">
 
-I am a research scientist at **Visa Research** (2018 – present).  
-My work spans *secure multiparty computation, verifiable secret sharing*, and *blockchain-based fairness protocols*.  
-Previously I was a cryptography researcher at **Microsoft Research**, a post-doc at **MIT CSAIL** and **Technion**, and earned my Ph.D. at the **University of Maryland** under Jonathan Katz.
+## Cryptography • Privacy • Security
 
-**Research interests.** Fundamental & applied cryptography, blockchain security, privacy-preserving protocols, error-correcting codes.
+My research focuses on the design and analysis of provably secure systems, with recent projects spanning LLM watermarking, MEV-driven DeFi, universal payment channels, and secure multiparty computation.
+
+I'm currently a Research Scientist at Visa Research. Previously, I was at Microsoft Research, held post-doctoral positions at MIT CSAIL and Technion, and earned my Ph.D. from the University of Maryland.
+
+I've been fortunate to have been mentored by Jonathan Katz, Vinod Vaikuntanathan, Yuval Ishai, Vlad Kolesnikov, Juan Garay, and C. Pandu Rangan.
+
+<div>
+  <a href="/files/ranjit_kumaresan_cv.pdf" class="btn btn--primary">Download CV</a> | 
+  <a href="/publications/" class="btn btn--primary">Selected Publications</a>
+</div>
 
 **Contact.**  
 43767 Paso Nuez Cmn, Fremont CA 94539  
