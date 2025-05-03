@@ -31,7 +31,6 @@ Previously I was a cryptography researcher at **Microsoft Research**, a post-doc
 <div style="margin-top: 2em;">
   <a href="/about/">About</a> |
   <a href="/publications/">Publications</a> |
-  <a href="/blog/">Blog</a> |
   <a href="/cv/">CV</a> |
   <a href="/files/ranjit_kumaresan_cv.pdf">CV (Short)</a>
 </div>
