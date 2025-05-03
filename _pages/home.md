@@ -20,7 +20,6 @@ I am a researcher working on various problems with a cryptographic flavor. Some 
 
 I'm currently at Visa Research. Previously I was a researcher at Microsoft Research, a post-doc at MIT CSAIL and Technion, and earned my Ph.D. at the University of Maryland. I am blessed to have numerous mentors including C. Pandu Rangan, Jonathan Katz, Vlad Kolesnikov, Juan Garay, Yuval Ishai, and Vinod Vaikuntanathan.
 
-**Research interests:** Fundamental & applied cryptography, blockchain security, privacy-preserving protocols, error-correcting codes.
 
 **Contact.**  
 43767 Paso Nuez Cmn, Fremont CA 94539  
