@@ -9,17 +9,23 @@ redirect_from:
 
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2em;">
   <div>
-    <a class="btn btn--primary" href="/files/ranjit_kumaresan_cv.pdf">Download CV</a>
+    <h2>Cryptography • Privacy • Security</h2>
   </div>
   <div>
     <img src="/images/profile.jpg" width="160" style="border-radius: 50%;">
   </div>
 </div>
 
-I am a researcher working on various problems with a cryptographic flavor. Some topics I have worked in the past include LLM watermarking, MEV aspects in DeFi, universal payment channels, and numerous aspects of secure multiparty computation.
+My research focuses on the design and analysis of provably secure systems, with recent projects spanning LLM watermarking, MEV-driven DeFi, universal payment channels, and secure multiparty computation.
 
-I'm currently at Visa Research. Previously I was a researcher at Microsoft Research, a post-doc at MIT CSAIL and Technion, and earned my Ph.D. at the University of Maryland. I am blessed to have numerous mentors including C. Pandu Rangan, Jonathan Katz, Vlad Kolesnikov, Juan Garay, Yuval Ishai, and Vinod Vaikuntanathan.
+I'm currently a Research Scientist at Visa Research. Previously, I was at Microsoft Research, held post-doctoral positions at MIT CSAIL and Technion, and earned my Ph.D. from the University of Maryland.
 
+I've been fortunate to have been mentored by Jonathan Katz, Vinod Vaikuntanathan, Yuval Ishai, Vlad Kolesnikov, Juan Garay, and C. Pandu Rangan.
+
+<div style="margin-top: 1em;">
+  <a href="/files/ranjit_kumaresan_cv.pdf" class="btn btn--primary">Download CV</a> | 
+  <a href="/publications/" class="btn btn--primary">Selected Publications</a>
+</div>
 
 **Contact.**  
 43767 Paso Nuez Cmn, Fremont CA 94539  
@@ -28,6 +34,6 @@ I'm currently at Visa Research. Previously I was a researcher at Microsoft Resea
 <div style="margin-top: 2em;">
   <a href="/about/">About</a> |
   <a href="/publications/">Publications</a> |
-  <a href="/cv/">CV</a> |
-  <a href="/files/ranjit_kumaresan_cv.pdf">CV (Short)</a>
+  <a href="/files/ranjit_kumaresan_cv.pdf">CV</a> |
+  <a href="/files/ranjit_kumaresan_cv_short.pdf">CV (Short)</a>
 </div>
