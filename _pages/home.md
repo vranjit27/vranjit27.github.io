@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Cryptography & Security · Visa Research"
+title: "Cryptography, Privacy, Security"
 author_profile: false
 redirect_from: 
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2em;">
   <div>
     <h1>Ranjit Kumaresan</h1>
-    <p>Cryptography &amp; Security · Visa Research</p>
+    <p>Cryptography, Privacy, Security</p>
     <a class="btn btn--primary" href="/files/ranjit_kumaresan_cv.pdf">Download CV</a>
   </div>
   <div>
@@ -18,11 +18,10 @@ redirect_from:
   </div>
 </div>
 
-I am a research scientist at **Visa Research** (2018 – present).  
-My work spans *secure multiparty computation, verifiable secret sharing*, and *blockchain-based fairness protocols*.  
-Previously I was a cryptography researcher at **Microsoft Research**, a post-doc at **MIT CSAIL** and **Technion**, and earned my Ph.D. at the **University of Maryland** under Jonathan Katz.
+I am a research scientist (2018 – present) focusing on secure multiparty computation, verifiable secret sharing, and blockchain-based fairness protocols.  
+Previously I was a researcher at Microsoft Research, a post-doc at MIT CSAIL and Technion, and earned my Ph.D. at the University of Maryland under Jonathan Katz.
 
-**Research interests.** Fundamental & applied cryptography, blockchain security, privacy-preserving protocols, error-correcting codes.
+**Research interests:** Fundamental & applied cryptography, blockchain security, privacy-preserving protocols, error-correcting codes.
 
 **Contact.**  
 43767 Paso Nuez Cmn, Fremont CA 94539  
