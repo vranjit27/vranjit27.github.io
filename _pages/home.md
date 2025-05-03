@@ -16,8 +16,9 @@ redirect_from:
   </div>
 </div>
 
-I am a research scientist (2018 – present) focusing on secure multiparty computation, verifiable secret sharing, and blockchain-based fairness protocols.  
-Previously I was a researcher at Microsoft Research, a post-doc at MIT CSAIL and Technion, and earned my Ph.D. at the University of Maryland under Jonathan Katz.
+I am a researcher working on various problems with a cryptographic flavor. Some topics I have worked in the past include LLM watermarking, MEV aspects in DeFi, universal payment channels, and numerous aspects of secure multiparty computation.
+
+I'm currently at Visa Research. Previously I was a researcher at Microsoft Research, a post-doc at MIT CSAIL and Technion, and earned my Ph.D. at the University of Maryland. I am blessed to have numerous mentors including C. Pandu Rangan, Jonathan Katz, Vlad Kolesnikov, Juan Garay, Yuval Ishai, and Vinod Vaikuntanathan.
 
 **Research interests:** Fundamental & applied cryptography, blockchain security, privacy-preserving protocols, error-correcting codes.
 
