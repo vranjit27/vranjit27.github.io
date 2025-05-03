@@ -13,6 +13,7 @@ $(document).ready(function () {
     const use_theme =
       theme ||
       localStorage.getItem("theme") ||
+      "dark" || // Set dark as default
       $("html").attr("data-theme") ||
       browserPref;
 
