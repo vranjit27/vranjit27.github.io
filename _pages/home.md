@@ -9,7 +9,6 @@ redirect_from:
 
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2em;">
   <div>
-    <h1>Ranjit Kumaresan</h1>
     <a class="btn btn--primary" href="/files/ranjit_kumaresan_cv.pdf">Download CV</a>
   </div>
   <div>
