@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Cryptography, Privacy, Security"
+title: "Ranjit Kumaresan"
 author_profile: false
 redirect_from: 
   - /about/
@@ -9,7 +9,6 @@ redirect_from:
 
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2em;">
   <div>
-    <h2>Cryptography • Privacy • Security</h2>
   </div>
   <div>
     <img src="/images/profile.jpg" width="160" style="border-radius: 50%;">
