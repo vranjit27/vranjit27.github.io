@@ -8,9 +8,6 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Ranjit Kumaresan"
-    url: /
-    
   - title: "About"
     url: /about/
     
