@@ -12,7 +12,7 @@ My research focuses on the design and analysis of provably secure systems, with 
 
 I'm currently a Research Scientist at Visa Research. Previously, I was at Microsoft Research, held post-doctoral positions at MIT CSAIL and Technion, and earned my Ph.D. from the University of Maryland.
 
-I've been fortunate to have been mentored by Jonathan Katz, Vinod Vaikuntanathan, Yuval Ishai, Vlad Kolesnikov, Juan Garay, and C. Pandu Rangan.
+I've been fortunate to have [incredible mentors](/mentors/) and have had the pleasure of [mentoring many talented individuals](/mentees/).
 
 <div>
   <a href="/files/ranjit_kumaresan_cv.pdf" class="btn btn--primary">Download CV</a> | 
