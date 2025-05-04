@@ -23,7 +23,7 @@ redirect_from:
   </div>
 </div>
 
-My research focuses on the design and analysis of secure systems. Recent topics of interest include LLM watermarking, MEV-driven DeFi, universal payment channels, and secure multiparty computation.
+My research focuses on the design and analysis of secure systems. Recent topics that I worked on include LLM watermarking, MEV aspects of DeFi, Universal payment channels, and secure multiparty computation.
 
 I'm currently a Research Scientist at Visa Research. Previously, I was at Microsoft Research, held post-doctoral positions at MIT CSAIL and Technion, and earned my Ph.D. from the University of Maryland.
 
