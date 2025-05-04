@@ -15,7 +15,7 @@ redirect_from:
     </div>
     
     <div>
-      [vranjit@gmail.com](mailto:vranjit@gmail.com) | [Google Scholar](https://scholar.google.com/citations?user=YC3Ab4oAAAAJ)
+      <a href="mailto:vranjit@gmail.com">vranjit@gmail.com</a> | <a href="https://scholar.google.com/citations?user=YC3Ab4oAAAAJ">Google Scholar</a>
     </div>
   </div>
   <div>

@@ -9,8 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ranjit Kumaresan"
-subtitle                 : "Cryptography & Security Researcher"
+title                    : ""
+subtitle                 : ""
 title_separator          : "-"
 name                     : &name "Ranjit Kumaresan"
 description              : &description "Research scientist focusing on fundamental and applied cryptography, MPC, and blockchain security."
