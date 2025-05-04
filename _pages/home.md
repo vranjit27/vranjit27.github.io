@@ -27,7 +27,6 @@ I've been fortunate to have been mentored by Jonathan Katz, Vinod Vaikuntanathan
 </div>
 
 **Contact.**  
-43767 Paso Nuez Cmn, Fremont CA 94539  
 [vranjit@gmail.com](mailto:vranjit@gmail.com) | [Google Scholar](https://scholar.google.com/citations?user=YC3Ab4oAAAAJ)
 
 <div style="margin-top: 2em;">
