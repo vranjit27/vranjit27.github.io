@@ -19,7 +19,7 @@ My research focuses on the design and analysis of secure systems. Recent topics 
 
 I'm currently a Research Scientist at Visa Research. Previously, I was at Microsoft Research, held post-doctoral positions at MIT CSAIL and Technion, and earned my Ph.D. from the University of Maryland.
 
-I've been fortunate to have [great mentors](/mentors-interns/#mentors) and have had the pleasure of mentoring many [talented interns](/mentors-interns/#interns).
+I've been fortunate to have [great mentors](/people/#mentors) and have had the pleasure of mentoring many [talented interns](/people/#interns).
 
 <div style="margin-top: 1em;">
   <a href="/files/ranjit_kumaresan_cv.pdf" class="btn btn--primary">Download CV</a> | 
