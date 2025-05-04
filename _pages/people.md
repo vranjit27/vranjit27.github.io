@@ -17,7 +17,7 @@ I've been fortunate to have been mentored by:
 ## Interns
 
 I've had the pleasure of mentoring:
-- [Yupeng Zhang](https://www.cs.tamu.edu/people/faculty/zhangyp/)
+- [Yupeng Zhang](https://cs.illinois.edu/about/people/faculty/ypzhang)
 - [Srinivasan Raghuraman](https://www.linkedin.com/in/srinivasan-raghuraman-6249541b/)
 - [Mohsen Minaei](https://www.linkedin.com/in/mohsen-minaei-1643a131/)
 - [Muhammad Saad](https://sites.google.com/view/msaad/)
