@@ -1,0 +1,55 @@
+categories:
+  - name: "Payment Channels and Networks"
+    description: "Research on scalable payment solutions, state channels, and blockchain-based payment networks"
+    publications:
+      - "Programmable Payment Channels"
+      - "Unlinkability and Interoperability in Account-Based Universal Payment Channels"
+      - "Sprites and State Channels: Payment Networks that Go Faster Than Lightning"
+      
+  - name: "Secure Computation with Penalties"
+    description: "Protocols ensuring fair exchange of digital assets and secure computation with enforcement mechanisms"
+    publications:
+      - "Synchronizable Fair Exchange"
+      - "LucidiTEE: Scalable policy-based multiparty computation with fairness"
+      - "Amortizing Secure Computation with Penalties"
+      - "Improvements to Secure Computation with Penalties"
+      - "How to Use Bitcoin to Design Fair Protocols"
+      - "How to Use Bitcoin to Incentivize Correct Computations"
+      
+  - name: "Blockchain Applications and Privacy"
+    description: "Applications of blockchain technology for privacy, gaming, and other use cases"
+    publications:
+      - "DTL: Data Tumbling Layer. A Composable Unlinkability for Smart Contracts"
+      - "A Plug-and-Play Long-Range Defense System for Proof-of-Stake Blockchains"
+      - "Instantaneous Decentralized Poker"
+      - "How to Use Bitcoin to Play Decentralized Poker"
+      
+  - name: "Multiparty Computation and Secure Protocols"
+    description: "Fundamental research on multiparty computation protocols, secure function evaluation, and cryptographic primitives"
+    publications:
+      - "Secure Computation with Minimal Interaction, Revisited"
+      - "Amortizing Garbled Circuits"
+      - "On the Complexity of UC Commitments"
+      - "On the Cryptographic Complexity of the Worst Functions"
+      - "Improved Secure Two-Party Computation via Information-Theoretic Garbled Circuits"
+      - "On the Security of the 'Free-XOR' Technique"
+      - "Multi-Client Non-interactive Verifiable Computation"
+      - "Efficient Verification of Input Consistency in Server-Assisted Secure Function Evaluation"
+      
+  - name: "Oblivious Transfer and Privacy-Preserving Techniques"
+    description: "Privacy-preserving cryptographic techniques including oblivious transfer protocols and private set intersection"
+    publications:
+      - "A plug-n-play framework for scaling private set intersection to billion-sized sets"
+      - "Efficient Batched Oblivious PRF with Applications to Private Set Intersection"
+      - "Network Oblivious Transfer"
+      - "On Cut-and-Choose Oblivious Transfer and Its Variants"
+      - "Improved OT Extension for Transferring Short Secrets"
+      
+  - name: "Broadcast Protocols and Secret Sharing"
+    description: "Research on secure broadcast protocols, verifiable secret sharing, and distributed consensus"
+    publications:
+      - "Adaptively Secure Broadcast, Revisited"
+      - "The Round Complexity of Verifiable Secret Sharing: The Statistical Case"
+      - "Authenticated Broadcast with a Partially Compromised Public Key Infrastructure"
+      - "Improving the Round Complexity of VSS in Point-to-Point Networks"
+      - "On Exponential Lower Bound for Protocols for Reliable Communication in Networks"

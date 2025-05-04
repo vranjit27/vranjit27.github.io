@@ -1,0 +1,41 @@
+---
+layout: archive
+title: "Publications by Research Area"
+permalink: /publications-by-topic/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Below are my publications organized by research theme. For a chronological listing, see <a href="{{ base_path }}/publications/">Publications</a>.</p>
+
+{% for category in site.data.publication_categories.categories %}
+  <div class="publication-category">
+    <h2 id="{{ category.name | slugify }}">{{ category.name }}</h2>
+    <p class="category-description">{{ category.description }}</p>
+    <div class="archive">
+      {% for publication_title in category.publications %}
+        {% assign publication = site.data.publications | where: "title", publication_title | first %}
+        {% if publication %}
+          <div class="list__item">
+            <article class="archive__item">
+              <h3 class="archive__item-title">{{ publication.title }}</h3>
+              <p class="archive__item-excerpt">
+                {{ publication.authors }} <br>
+                <i>{{ publication.venue }}</i>, {{ publication.year }}
+                {% if publication.pdf %}
+                  <a href="{{ publication.pdf }}" class="btn btn--small">[PDF]</a>
+                {% endif %}
+                {% if publication.links.size > 0 %}
+                  {% for link in publication.links %}
+                    <a href="{{ link.url }}" class="btn btn--small">[{{ link.name }}]</a>
+                  {% endfor %}
+                {% endif %}
+              </p>
+            </article>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
