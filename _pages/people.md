@@ -17,7 +17,7 @@ I've been fortunate to have been mentored by:
 
 ## Past Interns
 
-I’ve had the pleasure of mentoring:
+I’ve had the pleasure of interacting with:
 
 - [Yupeng Zhang](https://zhangyp.web.illinois.edu/)
 - [Srinivasan Raghuraman](https://people.csail.mit.edu/srirag/)
