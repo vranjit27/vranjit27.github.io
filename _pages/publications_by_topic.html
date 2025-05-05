@@ -9,33 +9,92 @@ author_profile: true
 
 <p>Below are my publications organized by research theme. For a chronological listing, see <a href="{{ base_path }}/publications/">Publications</a>.</p>
 
-{% for category in site.data.publication_categories.categories %}
-  <div class="publication-category">
-    <h2 id="{{ category.name | slugify }}">{{ category.name }}</h2>
-    <p class="category-description">{{ category.description }}</p>
-    <div class="archive">
-      {% for publication_title in category.publications %}
-        {% assign publication = site.data.publications | where: "title", publication_title | first %}
-        {% if publication %}
-          <div class="list__item">
-            <article class="archive__item">
-              <h3 class="archive__item-title">{{ publication.title }}</h3>
-              <p class="archive__item-excerpt">
-                {{ publication.authors }} <br>
-                <i>{{ publication.venue }}</i>, {{ publication.year }}
-                {% if publication.pdf %}
-                  <a href="{{ publication.pdf }}" class="btn btn--small">[PDF]</a>
-                {% endif %}
-                {% if publication.links.size > 0 %}
-                  {% for link in publication.links %}
-                    <a href="{{ link.url }}" class="btn btn--small">[{{ link.name }}]</a>
-                  {% endfor %}
-                {% endif %}
-              </p>
-            </article>
-          </div>
-        {% endif %}
-      {% endfor %}
+<div class="research-areas-nav">
+  <h2>Research Areas</h2>
+  <ul class="area-list">
+    {% for category in site.data.publication_categories.categories %}
+      <li><a href="#{{ category.name | slugify }}">{{ category.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="research-areas">
+  {% for category in site.data.publication_categories.categories %}
+    <div class="publication-category">
+      <h2 id="{{ category.name | slugify }}">{{ category.name }}</h2>
+      <p class="category-description">{{ category.description }}</p>
+      <div class="archive">
+        {% for publication_title in category.publications %}
+          {% assign publication = site.data.publications | where: "title", publication_title | first %}
+          {% if publication %}
+            <div class="list__item">
+              <article class="archive__item">
+                <h3 class="archive__item-title">{{ publication.title }}</h3>
+                <p class="archive__item-excerpt">
+                  {{ publication.authors }} <br>
+                  <i>{{ publication.venue }}</i>, {{ publication.year }}
+                  {% if publication.pdf %}
+                    <a href="{{ publication.pdf }}" class="btn btn--small">[PDF]</a>
+                  {% endif %}
+                  {% if publication.links.size > 0 %}
+                    {% for link in publication.links %}
+                      <a href="{{ link.url }}" class="btn btn--small">[{{ link.name }}]</a>
+                    {% endfor %}
+                  {% endif %}
+                </p>
+              </article>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p class="back-to-top"><a href="#top">Back to top</a></p>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>
+
+<style>
+  .research-areas-nav {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  
+  .area-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .area-list li {
+    margin-right: 10px;
+  }
+  
+  .area-list a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #6f777d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .area-list a:hover {
+    background-color: #24292e;
+  }
+  
+  .publication-category {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .back-to-top {
+    text-align: right;
+    margin-top: 20px;
+  }
+</style>
