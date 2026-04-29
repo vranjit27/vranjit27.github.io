@@ -12,3 +12,13 @@ Gemfile.lock
 node_modules
 package-lock.json
 **/.claude/settings.local.json
+
+# LaTeX build artifacts (CV sources live in files/, served as ranjit_kumaresan_cv*.pdf)
+files/*.aux
+files/*.log
+files/*.out
+files/cv-full.pdf
+files/cv-small.pdf
+
+# macOS
+.DS_Store
