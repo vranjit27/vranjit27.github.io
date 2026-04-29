@@ -13,9 +13,6 @@ main:
     
   - title: "Publications"
     url: /publications/
-    
-  - title: "Publications by Topic"
-    url: /publications-by-topic/
-    
+
   - title: "CV"
     url: /files/ranjit_kumaresan_cv.pdf
