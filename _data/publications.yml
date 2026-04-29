@@ -1,3 +1,12 @@
+- title: "Scalable Off-Chain Auctions"
+  authors: "M. Minaei, R. Kumaresan, A. Beams, P. Moreno-Sanchez, Y. Yang, S. Raghuraman, P. Chatzigiannis, M. Zamani, D. Le"
+  venue: "NDSS"
+  year: 2026
+  pdf: "https://www.ndss-symposium.org/wp-content/uploads/2026-s410-paper.pdf"
+  links:
+    - text: "NDSS page"
+      url: "https://www.ndss-symposium.org/ndss-paper/scalable-off-chain-auction/"
+
 - title: "DTL: Data Tumbling Layer. A Composable Unlinkability for Smart Contracts"
   authors: "M. Minaei, P. Moreno-Sanchez, Z. Fang, S. Raghuraman, N. Alamati, P. Chatzigiannis, R. Kumaresan, D. Le"
   venue: "AsiaCCS"

@@ -19,6 +19,7 @@ categories:
   - name: "Blockchain Applications and Privacy"
     description: "Applications of blockchain technology for privacy, gaming, and other use cases"
     publications:
+      - "Scalable Off-Chain Auctions"
       - "DTL: Data Tumbling Layer. A Composable Unlinkability for Smart Contracts"
       - "A Plug-and-Play Long-Range Defense System for Proof-of-Stake Blockchains"
       - "Instantaneous Decentralized Poker"
