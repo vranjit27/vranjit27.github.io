@@ -33,12 +33,12 @@ author_profile: true
                 <p class="archive__item-excerpt">
                   {{ publication.authors }} <br>
                   <i>{{ publication.venue }}</i>, {{ publication.year }}
-                  {% if publication.pdf %}
-                    <a href="{{ publication.pdf }}" class="btn btn--small">[PDF]</a>
+                  {% if publication.pdf and publication.pdf != "" %}
+                    <a href="{{ publication.pdf }}" class="btn btn--small" target="_blank">[PDF]</a>
                   {% endif %}
                   {% if publication.links.size > 0 %}
                     {% for link in publication.links %}
-                      <a href="{{ link.url }}" class="btn btn--small">[{{ link.name }}]</a>
+                      <a href="{{ link.url }}" class="btn btn--small" target="_blank">[{{ link.text }}]</a>
                     {% endfor %}
                   {% endif %}
                 </p>
