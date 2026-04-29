@@ -33,3 +33,30 @@ header.masthead .btn:hover {
   background-color: #0056b3;
   text-decoration: none;
 }
+
+/* Publication Categories Styling */
+.publication-category {
+  margin-bottom: 2.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.publication-category:last-child {
+  border-bottom: none;
+}
+
+.category-description {
+  font-style: italic;
+  margin-bottom: 1em;
+  color: #666;
+}
+
+.archive__item-title {
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+.btn--small {
+  padding: 0.25em 0.5em;
+  font-size: 0.75em;
+}
