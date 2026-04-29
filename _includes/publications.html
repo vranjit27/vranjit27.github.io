@@ -13,10 +13,6 @@
         <div class="paper-venue">{% if pub.venue != "" %}<em>{{ pub.venue }}</em>, {% endif %}{{ pub.year }}</div>
         
         <div class="paper-links">
-          {% if pub.pdf and pub.pdf != "" %}
-            <a href="{{ pub.pdf }}" class="paper-link" target="_blank">[PDF]</a>
-          {% endif %}
-          
           {% for link in pub.links %}
             <a href="{{ link.url }}" class="paper-link" target="_blank">[{{ link.text }}]</a>
           {% endfor %}
