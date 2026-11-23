@@ -13,7 +13,7 @@ title                    : ""
 subtitle                 : ""
 title_separator          : "-"
 name                     : &name "Ranjit Kumaresan"
-description              : &description "Research scientist working on the security of LLM-based systems — red-teaming, security benchmarking, agent harnesses — with a background in cryptography."
+description              : &description "Ranjit Kumaresan studies AI agent reliability, security, and interpretability at Visa Research. His earlier work spans cryptography and blockchain systems."
 url                      : "https://vranjit27.github.io" # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "vranjit27/vranjit27.github.io"
@@ -27,7 +27,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Ranjit Kumaresan"
   pronouns         : # example: "she/her"  
-  bio              : "AI Security Researcher"
+  bio              : "Research Scientist at Visa Research"
   location         : "USA"
   employer         : # "Red Brick University"
   uri              : # URL
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "ranjit-kumaresan-94074793"
+  linkedin         : # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

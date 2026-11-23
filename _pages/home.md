@@ -2,9 +2,6 @@
 permalink: /
 title: "Ranjit Kumaresan"
 author_profile: false
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2em;">
@@ -23,9 +20,11 @@ redirect_from:
   </div>
 </div>
 
-My current work focuses on the security of LLM-based systems — red-teaming agentic AI, security benchmarking, and building agent harnesses. I'm a Research Scientist at Visa Research, on the GATE team (GenAI Trust & Efficiency).
+I'm a Research Scientist at Visa Research. I study how to tell when a tool-using AI agent has drifted from its task or reported success without enough evidence. In 2025–2026, I led evaluations of agent reliability, security, and resistance to manipulation.
 
-Earlier, my research spanned the design and analysis of secure systems more broadly: LLM watermarking via pseudorandom error-correcting codes, MEV in DeFi, universal payment channels, and the foundations of secure multiparty computation. Before Visa I was at Microsoft Research, held postdoc positions at MIT CSAIL and Technion, and earned my Ph.D. from the University of Maryland.
+I'm interested in using GPU-based fine-tuning and reinforcement learning to test whether agents can learn to check uncertain outcomes before reporting success.
+
+In 2024, I worked on watermarking language model outputs and on secure inference. My earlier [publications](/publications/) cover cryptography, secure multiparty computation, privacy-preserving protocols, and blockchain payment systems.
 
 I've been fortunate to have [great mentors](/people/#mentors) and [talented interns](/people/#interns).
 
