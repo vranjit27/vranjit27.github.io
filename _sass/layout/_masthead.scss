@@ -64,17 +64,18 @@
 
 .theme-toggle {
   flex: none;
-  padding: 0.45em 0.65em;
-  border: 1px solid var(--global-dark-border-color);
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
   border-radius: 0.4em;
-  background: var(--global-bg-color);
+  background: transparent;
   color: var(--global-masthead-link-color);
   font: inherit;
-  font-size: 0.85em;
-  line-height: 1.4;
+  line-height: 1;
   cursor: pointer;
 
-  &:hover { color: var(--global-text-color); border-color: currentColor; }
+  &:hover { color: var(--global-text-color); background: var(--global-footer-bg-color); }
   &:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
 }
 
