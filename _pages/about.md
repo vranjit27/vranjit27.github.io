@@ -17,7 +17,7 @@ Before joining Visa, I worked in the Cryptography Group at Microsoft Research an
 
 I've been fortunate to have [great mentors](/people/#mentors) and have had the pleasure of mentoring many [talented interns](/people/#interns).
 
-I'm interested in understanding how AI agents behave and how training methods such as fine-tuning and reinforcement learning can make them more reliable.
+I'm fascinated by how neural networks work, which is what draws me to interpretability. I'm especially interested in using it to pinpoint where an agent's trajectory starts to drift from its task, measure that drift, and help the agent get back on track.
 
 <div>
   <a href="/files/ranjit_kumaresan_cv.pdf" class="btn btn--primary">Download CV</a> | 
@@ -25,4 +25,4 @@ I'm interested in understanding how AI agents behave and how training methods su
 </div>
 
 **Contact.**  
-<mailto:vranjit@gmail.com> | <https://scholar.google.com/citations?user=YC3Ab4oAAAAJ>
+<mailto:vranjit@gmail.com> | <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>
